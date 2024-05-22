@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina EDRIC</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Pagina web solo HTML</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Ciberseguridad</h2>
+    <hr>
+
+    <article class="container">
+        <h3>¿Qué es la ciberseguridad?</h3>
+        <img class="image" width="380px" src="/assets/imgs/imgs1.jpeg" alt="Equipo de ciberseguridad">
+        <p>La ciberseguridad es el conjunto de prácticas, tecnologías y procesos diseñados para proteger sistemas,
+            redes, dispositivos y datos de ataques, daños o accesos no autorizados.
+            <br>
+            Imagina la ciberseguridad como una serie de barreras y defensas que protegen una ciudad digital donde viven
+            y trabajan personas, empresas y gobiernos.
+        </p>
+        <h3>Componentes Clave de la Ciberseguridad</h3>
+        <p>
+            <b>Confidencialidad:</b> Asegurarse de que solo las personas autorizadas puedan acceder a cierta
+            información. <br>
+            Es como una caja fuerte digital que solo personas con la llave correcta pueden abrir.
+            <br>
+            <b>Integridad:</b> Garantizar que la información no se altere de manera no autorizada. <br>
+            Piensa en esto como un sello de garantía que asegura que el contenido no ha sido modificado.
+            <br>
+            <b>Disponibilidad:</b> Asegurarse de que la información y los sistemas estén disponibles para quienes
+            losnecesitan, cuando los necesitan. <br>
+            Es como mantener las puertas de un hospital siempre abiertas y operativas para quienes necesiten ayuda.
+        </p>
+        <img class="image2" src="/assets/imgs/imgs2.jpeg" alt="Ciberseguridad">
+        <h3>Importancia de la Ciberseguridad</h3>
+        <p><b>Protección de Datos Personales:</b> Mantener segura la información personal evita robos de identidad y
+            fraudes.
+            <br>
+            La ciberseguridad protege la información personal, como números de tarjetas de crédito, información de
+            cuentas bancarias, y datos de identificación. Esto es crucial para prevenir el robo de identidad, fraudes y
+            otras formas de abuso.
+            <br>
+            <b>Confianza en el Comercio Digital:</b> Las empresas necesitan asegurar a sus clientes que sus datos
+            financieros y personales están protegidos.
+            <br>
+            Las empresas que manejan transacciones en línea, como bancos y tiendas de comercio electrónico, deben
+            asegurar a sus clientes que sus datos están seguros. Una brecha de seguridad puede erosionar la confianza
+            del cliente y resultar en pérdidas financieras significativas.
+            <br>
+            <b>Seguridad Nacional:</b> Los gobiernos deben proteger infraestructuras críticas (como la electricidad y el
+            agua) de ataques cibernéticos que podrían causar graves daños.
+            <br>
+            Sectores como la energía, el agua, el transporte y la salud dependen de sistemas digitales. Un ataque
+            cibernético a estas infraestructuras podría tener consecuencias desastrosas, como cortes de energía,
+            interrupciones en los servicios de agua, o compromisos en la atención médica.
+            <br>
+        </p>
+        <img class="image" width="550px" src="/assets/imgs/imgs3.jpg" alt="Ciberseguridad">
+        <h3>Profesionales de la Ciberseguridad</h3>
+        <p>
+            Existen diversos roles en el campo de la ciberseguridad, incluyendo:
+            <br>
+            <b>Analistas de SOC (Security Operations Center):</b> Monitorean y responden a incidentes de seguridad en
+            tiempo real.
+            <br>
+            <b>Analistas de GRC (Governance, Risk, and Compliance):</b> Aseguran que las políticas y procedimientos de
+            seguridad cumplan con las regulaciones y gestionan riesgos.
+        </p>
+
+
+    </article>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+
+</body>
+
+</html>

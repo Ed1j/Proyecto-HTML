@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina EDRIC</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Pagina web de EDRIC</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Preferencias sobre ciberseguridad</h2>
+    <p>
+        La ciberseguridad es una disciplina compleja y multifacética, y las preferencias en este campo dependen de las
+        necesidades específicas y el contexto de cada organización. Sin embargo, adoptar un enfoque integral que combine
+        medidas preventivas y reactivas, la capacitación continua del personal, el cumplimiento normativo, y el uso de
+        tecnologías avanzadas es esencial para mantener un entorno seguro.
+    </p>
+    <hr>
+
+    <div class="container">
+        <table>
+            <tr>
+                <th>Aspecto</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Enfoque Proactivo vs. Reactivo</td>
+                <td>
+                    <strong>Proactivo:</strong> Medidas preventivas como firewalls, IDS/IPS, evaluaciones de
+                    vulnerabilidad, simulaciones de ataque.
+                    <br>
+                    <strong>Reactivo:</strong> Plan de respuesta a incidentes para detectar, contener y remediar
+                    amenazas en tiempo real.
+                </td>
+            </tr>
+            <tr>
+                <td>Capacitación y Concientización</td>
+                <td><strong>Preferencia Alta:</strong> Educación continua de empleados sobre prácticas seguras,
+                    identificación de phishing y manejo de datos sensibles.</td>
+            </tr>
+            <tr>
+                <td>Uso de Tecnologías Avanzadas</td>
+                <td>
+                    <strong>IA y Machine Learning:</strong> Detección de patrones anómalos y análisis de
+                    comportamiento.</li>
+                    <br>
+                    <strong>Autenticación Multifactor (MFA):</strong> Asegurar el acceso autorizado a sistemas
+                    críticos.
+                </td>
+            </tr>
+            <tr>
+                <td>Cumplimiento Normativo</td>
+                <td><strong>Preferencia Alta:</strong> Cumplimiento de regulaciones y estándares (GDPR, CCPA, HIPAA,
+                    PCI-DSS) para evitar multas y estructurar buenas prácticas de seguridad.</td>
+            </tr>
+            <tr>
+                <td>Gestión de Parches y Actualizaciones</td>
+                <td><strong>Regularidad y Automatización:</strong> Mantener sistemas y aplicaciones actualizados con
+                    parches de seguridad para reducir vulnerabilidades explotables.</td>
+            </tr>
+            <tr>
+                <td>Encriptación de Datos</td>
+                <td><strong>Preferencia Alta:</strong> Encriptar datos en tránsito y en reposo para asegurar que no sean
+                    legibles sin la clave adecuada.</td>
+            </tr>
+            <tr>
+                <td>Evaluación y Gestión de Riesgos</td>
+                <td><strong>Enfoque Basado en Riesgos:</strong> Evaluaciones regulares de riesgos, auditorías de
+                    seguridad y pruebas de penetración para priorizar recursos.</td>
+            </tr>
+            <tr>
+                <td>Implementación de Zero Trust</td>
+                <td><strong>Modelo de Confianza Cero:</strong> Segmentación de la red, control de acceso basado en
+                    identidad y contexto, y monitoreo continuo de actividades.</td>
+            </tr>
+            <tr>
+                <td>Uso de Servicios en la Nube</td>
+                <td><strong>Seguridad en la Nube:</strong> Aprovechar soluciones de seguridad de proveedores de la nube
+                    y aplicar controles adicionales para proteger datos y aplicaciones.</td>
+            </tr>
+            <tr>
+                <td>Seguridad en el Desarrollo (DevSecOps)</td>
+                <td><strong>Integración de Seguridad en el Ciclo de Vida del Software:</strong> Prácticas de seguridad
+                    desde el inicio del desarrollo, revisiones de código, pruebas automatizadas y escaneo de
+                    vulnerabilidades.</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+
+</body>
+
+</html>
